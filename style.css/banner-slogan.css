@@ -1,0 +1,49 @@
+.banner__slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner__slogan-item {
+    flex-grow: 1;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+.banner__slogan--header {
+    font-size: 32px;
+    color: #212c31;
+    margin: 20px 0 30px;
+    text-align: center;
+
+}
+
+.banner__slogan--different {
+    color: #fb414e;
+    text-transform: capitalize;
+}
+
+.banner__slogan--text,
+.banner__slogan--word {
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin: 0 100px;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+@media (max-width: 797px) {
+    .banner__slogan--text {
+        margin: 0 30px;
+    }
+}
+
+.banner__slogan--word {
+    text-transform: uppercase;
+    color: #fb414e;
+    font-weight: 900;
+}

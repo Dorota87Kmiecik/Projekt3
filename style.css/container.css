@@ -1,6 +1,25 @@
 .container {
-    width: 70vw;
+    width: 90vw;
     margin: auto;
     max-width: 100%;
     padding: 50px;
+}
+
+.container--changes {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 100vw;
+        padding: 25px
+    }
+}
+
+.container--different {
+    margin-top: 50vh;
+    margin-bottom: 10vh;
 }

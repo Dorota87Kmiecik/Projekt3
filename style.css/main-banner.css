@@ -30,6 +30,8 @@
     font-weight: 500;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
+    margin: 0 100px;
+    font-size: 12px;
 }
 
 .main-banner__button {
@@ -50,6 +52,7 @@
     margin-right: 3vw;
     font-weight: bold;
     border: 2px solid #fb414e;
+    z-index: 1;
 }
 
 
