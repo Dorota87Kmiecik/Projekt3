@@ -17,11 +17,12 @@
     <link rel="stylesheet" href="style.css/banner-slogan.css">
     <link rel="stylesheet" href="style.css/ideology.css">
     <link rel="stylesheet" href="style.css/gallery.css">
+    <link rel="stylesheet" href="style.css/contact.css">
 </head>
 
 <body>
     <header class="main-banner">
-        <div class="container">
+        <div class="container container--mobile">
             <nav class="main-navigation">
                 <div class="main-navigation__logo">
                     <a href="#" class="main-navigation__logo-link">
@@ -36,7 +37,11 @@
                     <li class="main-navigation__menu-item"><a href="#contact"class="main-navigation__link">Contact</a>
                     </li>
                 </ul>
+                <button class="main-navigation__mobile-button js-main-navigation__mobile-button"><img
+                        src="images/icons/navigation.svg" alt="Otwórz/ Zamknij nawigację"
+                        class="main-navigation__mobile-button-image"></button>
             </nav>
+            <script src="js/main-navigation.js"></script>
             <section class="main-banner__slogan">
                 <h1 class="main-banner__slogan-header">Helping business and companies innovate and transform</h1>
                 <p class="main-banner__slogan-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -163,6 +168,40 @@
                 <img src="./images/gallery/8.jpg" alt="" class="gallery__item-image">
             </div>
         </section>
+        <div class="container">
+            <section class="contact">
+                <div class="contact__slogan">
+                    <h1 class="contact__slogan-topic">Want to have a profesional project? Let's talk about it.</h1>
+                    <p class="contact__slogan-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, facere eveniet aspernatur
+                        doloribus vel earum rem maiores. Soluta, repudiandae velit eveniet voluptas eligendi
+                        consequuntur amet magnam adipisci modi accusamus nulla.
+                    </p>
+                    <p class="contact__slogan-text">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, facere eveniet aspernatur
+                        doloribus vel earum rem maiores. Soluta, repudiandae velit eveniet voluptas eligendi
+                        consequuntur amet magnam adipisci modi accusamus nulla.
+                    </p>
+                </div>
+                <form class="contact-form">
+                    <div class="contact-form__fields">
+                        <input name="name" class="contact-form__field contact-form__field--full-row" required
+                            placeholder="Your name">
+                        <input name="company name" class="contact-form__field" required placeholder="Company name">
+                        <input name="email" type="email" class="contact-form__field" required
+                            placeholder="E-mail address">
+                        <select name="services" class="contact-form__field contact-form__field--full-row">
+                            <option class="contact-form__field-option">Web design</option>
+                            <option class="contact-form__field-option">Web development</option>
+                            <option class="contact-form__field-option">Cyber security</option>
+                        </select>
+                        <textarea name="content" placeholder="Describe your project" required rows="10"
+                            class="contact-form__field contact-form__field--full-row "></textarea>
+                    </div>
+                    <button class="contact-form__submit-button">Submit</button>
+                </form>
+            </section>
+        </div>
 
     </header>
 
