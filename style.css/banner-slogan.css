@@ -1,12 +1,12 @@
 .banner__slogan {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
 }
 
 .banner__slogan-item {
+    flex-basis: 100%;
     flex-grow: 1;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -21,6 +21,13 @@
 
 }
 
+@media (max-width: 991px) {
+    .banner__slogan--header {
+        font-size: 25px;
+        margin: 2vh 0 1vh;
+    }
+}
+
 .banner__slogan--different {
     color: #fb414e;
     text-transform: capitalize;
@@ -31,12 +38,12 @@
     font-weight: 400;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
-    margin: 0 100px;
+    margin: 0 5vw;
     font-size: 12px;
     color: #a5a5a5;
 }
 
-@media (max-width: 797px) {
+@media (max-width: 991px) {
     .banner__slogan--text {
         margin: 0 30px;
     }
