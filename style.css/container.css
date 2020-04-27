@@ -1,7 +1,8 @@
 .container {
     width: 90vw;
     margin: auto;
-    max-width: 100%;
+    max-width: 1300px;
+    /* max-width: 100%; */
     padding: 50px;
 }
 
