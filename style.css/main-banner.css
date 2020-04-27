@@ -9,6 +9,11 @@
 
 }
 
+@media (max-width: 991px) {
+    .main-banner {
+        height: 115vh;
+    }
+}
 
 .main-banner__slogan {
     font-family: 'Source Sans Pro', sans-serif;
@@ -42,7 +47,7 @@
 
 @media (max-width: 991px) {
     .main-banner__slogan-header {
-        font-size: 20px;
+        font-size: 35px;
         margin-top: 5vh;
     }
 }
