@@ -11,12 +11,12 @@
     }
 }
 
-.container--changes {
+/* .container--changes {
     position: absolute;
     top: 80%;
     left: 50%;
     transform: translateX(-50%);
-}
+} */
 
 @media (max-width: 991px) {
     .container--mobile {
@@ -27,7 +27,7 @@
 }
 
 .container--different {
-    margin-top: 80vh;
+    margin-top: 20vh;
     margin-bottom: 10vh;
 
 
@@ -35,7 +35,7 @@
 
 @media (max-width: 991px) {
     .container--different {
-        margin-top: 220vh;
+        margin-top: 10vh;
         margin-bottom: 5vh;
         padding: 0;
 

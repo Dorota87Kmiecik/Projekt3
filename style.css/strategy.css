@@ -28,8 +28,8 @@
 @media (max-width: 991px) {
     .strategy__item {
         flex-basis: 44%;
-        min-width: 300px;
-        height: 450px;
+        min-width: 90vw;
+        height: 400px;
         margin-bottom: 10px;
     }
 }
