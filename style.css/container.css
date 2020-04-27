@@ -25,7 +25,7 @@
     .container--mobile {
         width: 100%;
         padding: 0px;
-        overflow: hidden;
+        /* overflow: hidden; */
 
     }
 }

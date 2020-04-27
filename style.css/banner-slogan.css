@@ -14,7 +14,7 @@
 
 
 .banner__slogan--header {
-    font-size: 32px;
+    font-size: 55px;
     color: #212c31;
     margin: 20px 0 30px;
     text-align: center;
@@ -23,7 +23,7 @@
 
 @media (max-width: 991px) {
     .banner__slogan--header {
-        font-size: 25px;
+        font-size: 30px;
         margin: 2vh 2vh 1vh;
     }
 }
@@ -35,12 +35,13 @@
 
 .banner__slogan--text,
 .banner__slogan--word {
-    font-weight: 400;
+    font-weight: 200;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
-    margin: 0 5vw;
-    font-size: 12px;
+    margin: 0 12vw;
+    font-size: 16px;
     color: #a5a5a5;
+    line-height: 1.5;
 }
 
 @media (max-width: 991px) {
