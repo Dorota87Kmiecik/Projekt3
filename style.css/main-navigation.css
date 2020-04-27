@@ -47,11 +47,15 @@
     }
 
     .main-navigation__link {
-        display: none;
+        color: #c7c7c7;
     }
 }
 
 .main-navigation__mobile-button {
+    display: none;
+}
+
+.main-navigation__menu-item--mobile {
     display: none;
 }
 
@@ -61,47 +65,86 @@
         background: none;
         border: none
     }
-}
 
-@media (max-width: 991px) {
-    .main-navigation__mobile-button-image {
-        width: 25px;
-        display: block;
-        position: absolute;
-        bottom: 2vh;
-        right: 2vh;
-        z-index: 3;
-    }
-}
+    .main-navigation__menu-item--mobile {
+        display: unset;
 
-
-
-
-@media (max-width: 991px) {
-    .main-navigation__menu {
-        position: fixed;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        background: black;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        opacity: 0;
-        pointer-events: none;
-        transition: 0.5s;
-        transition-property: all;
-        transform: translateY(-50%);
-        z-index: 2;
 
     }
-}
 
-@media (max-width: 991px) {
-    .main-navigation__menu--open {
-        opacity: 1;
-        pointer-events: unset;
-        transform: unset;
+    .main-navigation__link-back {
+        display: flex;
     }
-}
+
+    .main-navigation__link {
+        padding: 3vh 90vw 3vh 6vw;
+    }
+
+    .main-navigation__menu-item--mobile-image {
+
+        padding: 20px;
+        align-self: start;
+        flex-basis: 80%;
+        border-right: 1px solid #c7c7c7;
+
+    }
+
+    .main-navigation__back-link {
+        color: #c7c7c7;
+        text-decoration: none;
+        padding: 3vh 50vw 3vh 30vw;
+
+    }
+
+    .main-navigation__menu-item {
+        height: 10vh;
+        outline: 1px solid #c7c7c7;
+        display: flex;
+        align-items: center;
+
+    }
+
+
+
+    @media (max-width: 991px) {
+        .main-navigation__mobile-button-image {
+            width: 25px;
+            display: block;
+            position: absolute;
+            bottom: 2vh;
+            right: 2vh;
+            z-index: 3;
+        }
+    }
+
+
+
+
+    @media (max-width: 991px) {
+        .main-navigation__menu {
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background: white;
+            flex-direction: column;
+            justify-content: stretch;
+            text-align: left;
+            opacity: 0;
+            pointer-events: none;
+            transition: 0.5s;
+            transition-property: all;
+            transform: translateY(-50%);
+            z-index: 2;
+
+        }
+    }
+
+    @media (max-width: 991px) {
+        .main-navigation__menu--open {
+            opacity: 1;
+            pointer-events: unset;
+            transform: unset;
+        }
+    }
