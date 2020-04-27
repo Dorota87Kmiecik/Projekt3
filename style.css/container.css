@@ -5,11 +5,14 @@
     padding: 50px;
 }
 
+
 @media (max-width: 991px) {
     .container {
         padding: 15px;
     }
 }
+
+
 
 /* .container--changes {
     position: absolute;
@@ -22,12 +25,13 @@
     .container--mobile {
         width: 100%;
         padding: 0px;
+        overflow: hidden;
 
     }
 }
 
 .container--different {
-    margin-top: 20vh;
+    margin-top: 10vh;
     margin-bottom: 10vh;
 
 

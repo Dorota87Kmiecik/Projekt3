@@ -4,7 +4,7 @@
     height: 90vh;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    max-width: 100%;
 
 
 }
@@ -19,6 +19,19 @@
     justify-content: space-around;
     text-transform: capitalize;
 
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .main-banner__slogan {
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+    .main-banner__slogan {
+        margin-top: 200px;
+    }
 }
 
 .main-banner__slogan-header {
@@ -54,8 +67,8 @@
     display: flex;
     justify-content: center;
     margin-top: 7vh;
-    margin-right: -3vw;
-
+    margin-right: 0;
+    margin-left: 3vw;
 }
 
 .main-banner__button-start,
