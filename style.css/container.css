@@ -5,19 +5,17 @@
     padding: 50px;
 }
 
+@media (max-width: 991px) {
+    .container {
+        padding: 15px;
+    }
+}
+
 .container--changes {
     position: absolute;
     top: 80%;
     left: 50%;
     transform: translateX(-50%);
-}
-
-@media (max-width: 991px) {
-    .container--changes {
-        top: 80%;
-        left: 55%;
-
-    }
 }
 
 @media (max-width: 991px) {
@@ -29,7 +27,7 @@
 }
 
 .container--different {
-    margin-top: 60vh;
+    margin-top: 80vh;
     margin-bottom: 10vh;
 
 
@@ -37,7 +35,7 @@
 
 @media (max-width: 991px) {
     .container--different {
-        margin-top: 90vh;
+        margin-top: 220vh;
         margin-bottom: 5vh;
         padding: 0;
 
