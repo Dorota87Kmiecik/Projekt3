@@ -31,6 +31,12 @@
     }
 }
 
+@media (max-device-width: 568px) and (orientation: landscape) {
+    .strategy {
+        margin-top: 0;
+    }
+}
+
 
 
 .strategy__item {
