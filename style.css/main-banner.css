@@ -1,15 +1,37 @@
 .main-banner {
     position: relative;
-    background-image: url("../images/background.jpg");
+    background-color: rgba(0, 0, 0, 0.6);
     height: 90vh;
     background-size: cover;
     background-position: center;
     max-width: 100%;
+
 }
 
 @media (max-width: 991px) {
     .main-banner {
         height: 115vh;
+    }
+}
+
+.main-banner::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+
+
+}
+
+@media (max-width: 991px) {
+    .main-banner::after {
+        background-image: url("../images/background-mobile.jpg");
     }
 }
 
@@ -56,7 +78,6 @@
     text-align: center;
     margin: 0 15vw;
     font-size: 16px;
-    text-shadow: 1px 1px 1px black;
 }
 
 @media (max-width: 991px) {
@@ -86,7 +107,7 @@
     margin-right: 3vw;
     font-weight: bold;
     border: 2px solid #fb414e;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 
