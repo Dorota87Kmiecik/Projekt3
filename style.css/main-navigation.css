@@ -102,7 +102,7 @@
 
     .main-navigation__menu-item {
         height: 10vh;
-        outline: 1px solid #c7c7c7;
+        border-bottom: 1px solid #c7c7c7;
         display: flex;
         align-items: center;
 
