@@ -7,7 +7,7 @@
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
     .strategy {
-        margin-top: 300px;
+        margin-top: 100px;
     }
 }
 
@@ -20,7 +20,7 @@
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
     .strategy {
-        margin-top: -5vw;
+        margin-top: -6vw;
     }
 }
 
@@ -31,7 +31,7 @@
     }
 }
 
-@media (max-device-width: 568px) and (orientation: landscape) {
+@media (max-device-width: 823px) and (orientation: landscape) {
     .strategy {
         margin-top: 0;
     }
@@ -40,7 +40,7 @@
 
 
 .strategy__item {
-    border: border-box;
+
     flex-basis: 30%;
     height: 400px;
     background-color: #333333;
